@@ -5,8 +5,6 @@ const HomePage: React.FC = () => {
     <div className="container">
       <nav className="navBar">
         <a href="/about" className="navItem">About Me</a>
-        <a href="#skills" className="navItem">My Skills</a>
-        <a href="#portfolio" className="navItem">Portfolio</a>
         <a href="#contact" className="navItem">Contacts</a>
       </nav>
       <div className="mainContent">
