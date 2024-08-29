@@ -10,8 +10,8 @@ const AboutPage: React.FC = () => {
       <section className="intro">
         <h2>Introduction</h2>
         <p>
-          Hello! I’m Mbali Kgatlhane, a Full Stack Developer with a passion for creating innovative and efficient web applications. 
-          With a solid foundation in both front-end and back-end development, I am dedicated to crafting solutions that solve real-world 
+          Hello! I am Mbali Kgatlhane, a Full Stack Developer with a passion for creating innovative and efficient web applications. 
+          With a solid foundation in both front-end and back-end development, I am dedicated to crafting solutions that solve real world 
           problems.
         </p>
       </section>
@@ -33,7 +33,7 @@ const AboutPage: React.FC = () => {
       <section className="contact">
         <h2>Contact</h2>
         <p>
-          If you’d like to get in touch or collaborate on a project, feel free to reach out!
+          If you would like to get in touch or collaborate on a project, feel free to reach out!
         </p>
         <Link href="mailto:your-email@example.com" className="contactButton">Email Me </Link>
       </section>
