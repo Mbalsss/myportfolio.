@@ -1,11 +1,12 @@
+import Link from '@/node_modules/next/link';
 import React from 'react';
 
 const HomePage: React.FC = () => {
   return (
     <div className="container">
       <nav className="navBar">
-        <a href="/about" className="navItem">About Me</a>
-        <a href="#contact" className="navItem">Contacts</a>
+        <Link href="/about" className="navItem">About Me</Link>
+        <Link href="#contact" className="navItem">Contacts</Link>
       </nav>
       <div className="mainContent">
         <p className="introText">
