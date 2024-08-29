@@ -13,9 +13,9 @@ const HomePage: React.FC = () => {
           Hi there! My name is Mbali and<br />
           I'm a Full Stack Developer
         </p>
-        <a href="/documents/CV.pdf" className="downloadButton" download>
+        <Link href="/documents/CV.pdf" className="downloadButton" download>
           Download CV
-        </a>
+        </Link>
       </div>
     </div>
   );

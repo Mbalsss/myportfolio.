@@ -1,3 +1,4 @@
+import Link from '@/node_modules/next/link';
 import React from 'react';
 
 const AboutPage: React.FC = () => {
@@ -34,7 +35,7 @@ const AboutPage: React.FC = () => {
         <p>
           If you’d like to get in touch or collaborate on a project, feel free to reach out!
         </p>
-        <a href="mailto:your-email@example.com" className="contactButton">Email Me</a>
+        <Link href="mailto:your-email@example.com" className="contactButton">Email Me </Link>
       </section>
       <style jsx>{`
         .container {
